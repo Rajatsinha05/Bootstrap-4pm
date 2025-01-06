@@ -1,0 +1,18 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ .banner img {
+    height: 70vh !important;
+    object-fit: cover !important;
+}
+.banner{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.container-fluid{
+    margin: 0px !important;
+    padding: 0px !important;
+}
