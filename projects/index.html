@@ -10,12 +10,21 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="/style/index.css" />
   </head>
   <body>
     <div class="container-fluid overflow-hidden">
       <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg bg-body-light">
+        <nav
+          class="navbar navbar-expand-lg navbar-light fixed-top bg-white px-5"
+        >
           <div class="container-fluid">
             <button
               class="navbar-toggler"
@@ -28,48 +37,63 @@
             >
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div
-              class="d-flex justify-content-between border border-danger w-100"
-            >
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"
-                      >Home</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a
-                      class="nav-link dropdown-toggle"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      Dropdown link
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li>
-                        <a class="dropdown-item" href="#">Another action</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#"
-                          >Something else here</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
 
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-uppercase fw-normal fs-6"
+                    aria-current="page"
+                    href="#"
+                    >Home
+
+                    <i class="fa-solid fa-angle-down"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase fw-normal" href="#"
+                    >Shop <i class="fa-solid fa-angle-down"></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase fw-normal" href="#"
+                    >Product <i class="fa-solid fa-angle-down"></i
+                  ></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-uppercase fw-normal"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Templates
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase fw-normal" href="#"
+                    >Pages <i class="fa-solid fa-angle-down"></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase fw-normal" href="#"
+                    >Mega <i class="fa-solid fa-angle-down"></i
+                  ></a>
+                </li>
+              </ul>
+
+              <div class="navbar-brand mx-auto" id="navbarNavDropdown">
                 <img
                   src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/11/240-logo.png"
                   alt=""
@@ -77,43 +101,54 @@
                 />
               </div>
 
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"
-                      >Home</a
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">
+                    <i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link position-relative" href="#">
+                    <i class="fa-regular fa-bag-shopping"></i>
+                    <span
+                      class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
                     >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a
-                      class="nav-link dropdown-toggle"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      Dropdown link
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li>
-                        <a class="dropdown-item" href="#">Another action</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#"
-                          >Something else here</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
+                      0
+                    </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link position-relative" href="#">
+                    <i class="fa-regular fa-heart"></i>
+                    <span
+                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                  >
+                    5
+                  </span>
+                  </a>
+                </li>
+                <!-- <i class="fa-regular fa-user"></i> -->
+                <li class="nav-item">
+                  <a class="nav-link position-relative" href="#">
+                    <i class="fa-solid fa-rotate-left"></i>
+                    <span
+                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                  >
+                    0
+                  </span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link position-relative" href="#">
+                    <i class="fa-regular fa-user"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <i class="fa-regular fa-bell"></i>
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </nav>

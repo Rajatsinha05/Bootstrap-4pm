@@ -4,15 +4,29 @@
     box-sizing: border-box;
 }
 
- .banner img {
+.banner img {
     height: 70vh !important;
     object-fit: cover !important;
 }
-.banner{
+
+.banner {
     margin: 0px !important;
     padding: 0px !important;
 }
-.container-fluid{
+
+.container-fluid {
     margin: 0px !important;
     padding: 0px !important;
+}
+
+.navbar-brand {
+    max-width: 120px !important;
+}
+
+.fa-rotate-left {
+    transform: rotate(270deg);
+}
+.nav-link i {
+    max-width: 24px !important;
+    max-height: 24px !important;
 }
