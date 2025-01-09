@@ -17,6 +17,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="/style/index.css" />
   </head>
   <body>
@@ -70,15 +71,48 @@
                   >
                     Templates
                   </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Another action</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </li>
-                  </ul>
+
+                  <div class="dropdown-menu">
+                    <div>
+                      <ul>
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Another action</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Something else here</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <div>
+                      <ul>
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Another action</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Something else here</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <div>
+                      <ul>
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Another action</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Something else here</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
                 </li>
 
                 <li class="nav-item">
@@ -121,10 +155,10 @@
                   <a class="nav-link position-relative" href="#">
                     <i class="fa-regular fa-heart"></i>
                     <span
-                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
-                  >
-                    5
-                  </span>
+                      class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                    >
+                      5
+                    </span>
                   </a>
                 </li>
                 <!-- <i class="fa-regular fa-user"></i> -->
@@ -132,10 +166,10 @@
                   <a class="nav-link position-relative" href="#">
                     <i class="fa-solid fa-rotate-left"></i>
                     <span
-                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
-                  >
-                    0
-                  </span>
+                      class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                    >
+                      0
+                    </span>
                   </a>
                 </li>
                 <li class="nav-item">
@@ -178,26 +212,53 @@
           ></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div class="carousel-item active position-relative">
             <img
               src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/11/slideshow-1920-31.png"
               class="d-block w-100 img-fluid"
               alt="..."
             />
+            <div
+              class="carousel-caption d-none d-md-block position-absolute top-50 start-50 translate-middle mt-4"
+              data-aos="zoom-in"
+            >
+              <h2 class="fs-1 h1">Baraati Edit 2023</h2>
+              <p class="fs-3">New generation approach</p>
+              <button class="btn btn-success px-4 py-2">Check Now</button>
+            </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item position-relative">
             <img
               src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/11/slideshow-1920-24.png"
               class="d-block w-100 img-fluid"
               alt="..."
             />
+
+            <div
+              class="carousel-caption d-none d-md-block position-absolute top-50 end-0 mt-4"
+              data-aos="zoom-in"
+            >
+              <h2 class="fs-1 h1">Baraati Edit 2023</h2>
+              <p class="fs-3">New generation approach</p>
+              <button class="btn btn-success px-4 py-2">Check Now</button>
+            </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item position-relative">
             <img
               src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/11/slideshow-1920-16.png"
               class="d-block w-100 img-fluid"
               alt="..."
             />
+            <div
+              class="carousel-caption d-none d-md-block position-absolute top-50 end-0  mt-4"
+              data-aos="zoom-in"
+            >
+              <h2 class="fs-1 h1">Floral Patterned Dresses</h2>
+              <p class="fs-3">Reflect nature's patterns on the street!</p>
+              <button class="btn btn-primary-subtle px-4 py-2">
+                Check Products
+              </button>
+            </div>
           </div>
         </div>
         <button
@@ -263,4 +324,8 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"
   ></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>

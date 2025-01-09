@@ -30,3 +30,9 @@
     max-width: 24px !important;
     max-height: 24px !important;
 }
+.dropdown:hover .dropdown-menu{
+    display: flex;
+}
+.carousel-caption .fs-1{
+    font-size: 72px !important;
+}
